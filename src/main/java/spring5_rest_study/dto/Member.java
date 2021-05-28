@@ -9,7 +9,6 @@ import spring5_rest_study.exception.WrongIdPasswordException;
 public class Member {
 	private Long id;
 	private String email;
-	@JsonIgnore
 	private String password;
 	private String name;
 //	@JsonFormat(pattern = "yyyyMMddHHmmss")
