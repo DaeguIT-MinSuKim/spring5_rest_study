@@ -11,7 +11,7 @@ import spring5_rest_study.dto.Member;
 public interface MemberMapper {
 
     Member selectMemberById(long memId);
-    List<Member> selectMemberAll();
+    List<Member> selectMemberByAll();
     int insertMember(Member member);
     int updateMember(Member member);
     int deleteMember(Member member);
