@@ -22,5 +22,4 @@ public class RestRemoveMemberController {
         return ResponseEntity.ok(service.removeMember(id));
     }
 
-
 }

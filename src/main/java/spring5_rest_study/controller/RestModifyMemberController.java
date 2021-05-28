@@ -24,5 +24,4 @@ public class RestModifyMemberController {
         return ResponseEntity.ok(service.modifyMember(member));
     }
 
-
 }
